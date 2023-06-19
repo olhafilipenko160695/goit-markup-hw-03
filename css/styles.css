@@ -22,6 +22,16 @@
 h1, h2, h3, h4, h5, h6, p, ul{
     margin: 0;
 }
+/*HEADER*/ 
+.top-header{
+    border-bottom: 1px solid var(--accent);
+}
+.header-div{
+    display: flex;
+}
+.container{
+    width: 1158px;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
