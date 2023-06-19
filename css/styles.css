@@ -72,6 +72,7 @@ margin-right: 76px;
 .ul-one{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .ul-one a{
     color: var(--head-color);
