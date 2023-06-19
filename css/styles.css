@@ -93,6 +93,11 @@ margin-right: 76px;
     text-decoration: none;
     letter-spacing: 0.02em;
 }
+.ul-address{
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
 .ul-address a{
 color: var(--paragraph-color);
 font-weight: 400;
@@ -100,6 +105,7 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-decoration: none;
+padding: 24px 0;
 }
 
 .ul-address a:hover, .ul-address a:focus{
@@ -110,6 +116,7 @@ text-decoration: none;
 
 .address{
     font-style: normal;
+    margin-left: auto;
 }
 
 h1{
