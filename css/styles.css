@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
 }
 .container{
     width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
 }
 .nav-menu{
@@ -57,6 +57,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 .studio-text{
     color: var(--background-dark);
@@ -76,7 +77,10 @@ text-transform: uppercase;
     font-size: 16px;
     line-height: 24px; 
     text-decoration: none; 
-    letter-spacing: 0.02em 
+    letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .ul-one a:hover, .ul-one a:focus, .ul-one a:active {
