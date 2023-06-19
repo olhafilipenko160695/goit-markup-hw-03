@@ -128,7 +128,6 @@ padding: 24px 0;
     letter-spacing: 0.02em;
     line-height: 1.07;
     max-width: 496px;
-    margin-bottom: 48px;
 }
 .header-two{
 color: var(--head-color);
@@ -167,10 +166,10 @@ line-height: 24px;
 letter-spacing: 0.04em;
     background-color: var(--web-color);
 cursor: pointer;
-display: block; 
+display: block;
 min-width: 169px;
 height: 56px;
-border: none; 
+border: none;
 border-radius: 4px;
 }
 
