@@ -82,6 +82,8 @@ margin-right: 76px;
     line-height: 24px; 
     text-decoration: none; 
     letter-spacing: 0.02em;S
+    display: flex;
+    gap: 40px;
     padding: 24px 0;
 }
 
