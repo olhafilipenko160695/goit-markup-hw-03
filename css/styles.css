@@ -10,7 +10,18 @@
 --accent: #E7E9FC;
 --text: #434455;
 }
-
+/*NORMALIZATOR*/
+*, 
+*::before, 
+*::after{
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
