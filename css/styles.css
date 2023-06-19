@@ -119,7 +119,7 @@ padding: 24px 0;
     margin-left: auto;
 }
 
-h1{
+.tytle-main{
     color: var(--h1-color);
     font-weight: 700;
     font-size: 56px;
@@ -127,7 +127,7 @@ h1{
     text-align: center;
     letter-spacing: 0.02em;
     line-height: 1.07;
-
+    max-width: 496px;
 }
 .header-two{
 color: var(--head-color);
@@ -176,6 +176,7 @@ cursor: pointer;
 }
 .section-one{
 background-color: var(--background-dark);
+padding: 188px 0; 
 }
 .section-two{
 background-color: var(--h1-color);
