@@ -118,7 +118,10 @@ padding: 24px 0;
     font-style: normal;
     margin-left: auto;
 }
-
+.advantages-list{
+    display: flex;
+    gap: 24px; 
+}
 .tytle-main{
     color: var(--h1-color);
     font-weight: 700;
@@ -190,6 +193,7 @@ padding: 188px 0;
 }
 .section-two{
 background-color: var(--h1-color);
+padding: 120px 0;
 }
 
 .section-three{
