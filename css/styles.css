@@ -130,6 +130,7 @@ padding: 24px 0;
     max-width: 496px;
     margin-right: auto;
   margin-left: auto;
+  padding-bottom: 48px;
 }
 .header-two{
 color: var(--head-color);
@@ -173,6 +174,8 @@ min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
+margin-right: auto;
+margin-left: auto;
 }
 
 .butt-one:hover, .button-one:active{
