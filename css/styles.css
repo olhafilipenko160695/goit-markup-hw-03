@@ -210,9 +210,11 @@ padding-top: 120px;
 }
 
 .advantages-item{
-    width: calc((100% - 72px) / 4); ;
+    width: calc((100% - 72) / 4); ;
 }
-
+.advantages-list .header-three{
+    margin-bottom: 8px; 
+}
 .section-three{
     background-color: var(--h1-color);
 }
