@@ -335,7 +335,7 @@ line-height: 21px;
     padding-left: 0;
     
 }
-.first-line{
+.apps-line{
     width: calc((100% - 48px) / 3);
 }
 .applications{
