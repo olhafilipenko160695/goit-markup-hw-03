@@ -244,6 +244,16 @@ padding-top: 120px;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
+.team-member{
+    padding: 16px 32px;
+}
+.header-name{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.paragraph-name{
+    text-align: center;
+}
 .footer{
     background-color: #2E2F42;
     text-align: left;
