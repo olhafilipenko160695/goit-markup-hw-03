@@ -227,7 +227,7 @@ padding-top: 120px;
     gap: 24px; 
     padding-left: 0;
 }
-.tasks-list li{
+.tasks-item{
     width: calc((100% - 48px) / 3);
 }
 .section-four{
