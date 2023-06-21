@@ -144,6 +144,18 @@ line-height: 1.11;
 text-transform: capitalize;
 text-align: center;
 }
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .header-three{
     color: var(--head-color);
@@ -194,6 +206,11 @@ padding: 188px 0;
 .section-two{
 background-color: var(--h1-color);
 padding: 120px 0;
+padding-top: 120px;
+}
+
+.advantages-item{
+    width: calc((100% - 72px) / 4); ;
 }
 
 .section-three{
