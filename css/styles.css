@@ -266,7 +266,10 @@ padding: 100px 0;
 }
 .text-footer{
     color: var(--cloud-color);
+    position: absolute;
+    width: 264;
 }
+
 .footer-class{
     display: inline-block;
     margin-bottom: 16px;
@@ -294,6 +297,7 @@ line-height: 21px;
 .button-portfolio:hover, .button-portfolio:focus{
     color: var(--h1-color);
     background-color: var(--pressed-state);
+    width: 264px;
 }
 .header-three-portfolio{
     font-weight: 500;
