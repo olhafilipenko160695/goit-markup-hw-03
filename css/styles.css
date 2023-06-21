@@ -341,3 +341,8 @@ line-height: 21px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.apps{
+    display: block;
+	max-width: 100%;
+
+}
