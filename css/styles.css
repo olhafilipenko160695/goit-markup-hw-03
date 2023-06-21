@@ -282,9 +282,9 @@ font-weight: 800;
 font-size: 18px;
 line-height: 21px;
 }
-/*PORTFOLI*/ 
+/*PORTFOLIO*/ 
 .section-six{
-    padding-top: 96px;
+    padding-top: 96px; padding-bottom: 120px; 
 }
 .button-portfolio{
     font-family: "Roboto", sans-serif;
@@ -295,17 +295,33 @@ line-height: 21px;
     text-align: center;
     letter-spacing: 0.04em;    
         background-color: var(--cloud-color);
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
       cursor: pointer;  
+      padding: 12px 24px;
+      flex-direction: row;
 }
 .button-portfolio:hover, .button-portfolio:focus{
     color: var(--h1-color);
     background-color: var(--pressed-state);
+    border-radius: 4px;
+    border: 1px solid transparent;
     width: 264px;
+    padding: 12px 24px;
+    
 }
 .header-three-portfolio{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    border-radius: 4px;
     color: var(--background-dark);
+    padding: 12px 24px;
+}
+.options-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px
 }
