@@ -282,7 +282,10 @@ font-weight: 800;
 font-size: 18px;
 line-height: 21px;
 }
-
+/*PORTFOLI*/ 
+.section-six{
+    padding-top: 96px;
+}
 .button-portfolio{
     font-family: "Roboto", sans-serif;
     color: var(--web-color);
