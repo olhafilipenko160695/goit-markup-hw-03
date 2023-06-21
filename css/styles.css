@@ -166,6 +166,7 @@ font-size: 20px;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 8px; 
 }
 
 .paragraph-one{
@@ -211,9 +212,9 @@ padding-top: 120px;
 
 .advantages-item{
     width: calc((100% - 72px) / 4);
-    margin-bottom: 8px; 
+ 
 }
-.advantages-list {
+.advantages-list{
     padding-left: 0%;
 }
 .section-three{
