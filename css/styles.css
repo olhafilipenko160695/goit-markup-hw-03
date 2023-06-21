@@ -143,6 +143,7 @@ letter-spacing: 0.02em;
 line-height: 1.11;
 text-transform: capitalize;
 text-align: center;
+margin-bottom: 72px; 
 }
 .visually-hidden{
     position: absolute;
@@ -215,10 +216,19 @@ padding-top: 120px;
  
 }
 .advantages-list{
-    padding-left: 0%;
+    padding-left: 0;
 }
 .section-three{
     background-color: var(--h1-color);
+    padding-bottom: 120px;
+}
+.tasks-list{
+    display: flex;
+    gap: 24px; 
+    padding-left: 0;
+}
+.tasks-list li{
+    width: calc((100% - 48px) / 3);
 }
 .section-four{
     background-color: var(--cloud-color);
