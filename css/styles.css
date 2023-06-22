@@ -316,7 +316,6 @@ line-height: 21px;
     letter-spacing: 0.02em;
     border-radius: 4px;
     color: var(--background-dark);
-    padding: 12px 24px;
     margin-bottom: 8px;
 }
 .button-list{
@@ -341,12 +340,10 @@ line-height: 21px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    padding-left: 0;
 }
 .apps{
     display: block;
 	max-width: 100%;
 }
 .par-app{
-    padding: 12px 24px;
 }
